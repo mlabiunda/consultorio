@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(240, 224, 238);
+    margin: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoimagen {
+    text-align: center;
+}
+
+.img {
+    width: 25%;
+    
+
+}
+
+a {
+    font-size: 20px;
+    color: rgb(85, 119, 97);
+    display: block;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+      
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(241, 198, 225);
+    color: rgb(85, 119, 97);
+    margin: 10px;
+    padding: 5px;
+}
+
+.fa-brands {
+    padding-right: 5px;
+}
+
+.menufooter {
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+} 
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(85, 119, 97);
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(85, 119, 97);
+}
+
+ul {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(85, 119, 97);   
+}
+li {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(85, 119, 97);
+}

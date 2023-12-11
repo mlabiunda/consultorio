@@ -130,7 +130,9 @@ p {
     grid-template-rows: 50% 50%;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
-    justify-items: center;
+    justify-items: start;
+    align-items: start;
+    justify-content: center;
 }
 .enlace {
     color: rgb(14, 3, 11);

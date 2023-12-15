@@ -5,11 +5,30 @@
     box-sizing: border-box;
 }
 .nav {
-    background-color: rgb(245, 241, 244);
+    
     margin: 10px;
-    padding: 8px;
+    padding: 10px;
+    color: rgb(60, 65, 61);
+    display:inline;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
+a {
+    font-size: 30px;
+    color: rgb(60, 65, 61);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+}
 
 body {
     margin: 10px;
@@ -38,17 +57,7 @@ header{
   align-items: center;
 }
 
-a {
-    font-size: 30px;
-    color: rgb(31, 32, 32);
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    align-items: center;
-    justify-content: space-around;
-}
+
 main {
     display: flexbox;
     margin: 10px;
@@ -135,9 +144,9 @@ p {
     justify-content: center;
 }
 .enlace {
-    color: rgb(14, 3, 11);
+    color: rgb(248, 247, 248);
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-top: 10px;
 }
 
@@ -148,7 +157,7 @@ p {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("../img/limpieza2.jpg");
+    background-image: url("../img/limpiezafer.jpg");
     background-size: cover;
 }
 
@@ -159,7 +168,7 @@ p {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("../img/blanqueamiento2.jpg");
+    background-image: url("../img/blanqfer2.jpg");
     background-size: cover;
 }
 
@@ -207,9 +216,34 @@ p {
     font-size: 25px;
     margin-left: 85%;
 }
-.navegador {
-    background-color:rgb(241, 198, 225); 
-    display: none;
+#navegador {
+    
+    display: inline;
+    color: grey;
+}
+
+#navegador2 {
+    margin: 10px;
+    padding: 8px;
+    color: grey;
+    display:inline;
+    font-size: 30px;
+    text-align: center;
+
+}
+/* Blanqueamiento*/
+#blanq {
+    font-size: 25px;
+}
+#bl {
+    font-size: 28px;
+}
+#bla {
+    font-size: 32px;
+}
+#bq {
+    font-size: 40px;
+    font-weight: 100;
 }
 
 
